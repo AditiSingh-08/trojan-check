@@ -44,19 +44,17 @@ This project is a web applicationbthat performs *static analysis* on uploaded fi
 
 ### *Frontend*  
 - Framework: *React.js*  
-- UI Library: *Tailwind CSS / Material UI*  
-- State Management: *Redux / React Context API*  
+- UI Library: *Material UI*  
+- State Management: *POSTMAN API*  
 
 ### *Backend*  
 - Language: Python
-- Framework: Flask / FastAPI
-- Static Analysis Tools: YARA, PEfile, pyelftools, ClamAV
-- Database: PostgreSQL / MongoDB 
-- File Handling: AWS S3 / Local Encrypted Storage
+- Framework:  FastAPI
+- Static Analysis Tools: YARA, PEfile, pyelftools, ClamAV 
+
 
 ### *Security Measures*  
 - *Authentication:* JWT / OAuth  
-- *File Integrity & Scanning:* Antivirus (ClamAV), Sandboxing  
 - *API Security:* Rate limiting, request validation  
 
 
