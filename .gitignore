@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+
+# Build output
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets and local config
+.env
+.env.*
+
+# Generated test file
+dummy.exe
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

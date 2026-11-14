@@ -1,0 +1,10 @@
+fastapi
+uvicorn==0.34.0
+python-multipart
+yara-python==4.5.1
+pefile
+PyPDF2
+python-docx
+python-jose
+passlib
+bcrypt==3.2.2
