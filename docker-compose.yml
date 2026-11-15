@@ -1,0 +1,9 @@
+# Runs the API in a container:  docker compose up --build
+# Create backend/.env from backend/.env.example first.
+services:
+  api:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env

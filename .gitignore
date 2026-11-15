@@ -15,6 +15,7 @@ __pycache__/
 # Secrets and local config
 .env
 .env.*
+!.env.example
 
 # Generated test file
 dummy.exe
@@ -23,3 +24,7 @@ dummy.exe
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Tests / tooling
+.pytest_cache/
+.coverage
